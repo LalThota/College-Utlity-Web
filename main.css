@@ -20,6 +20,26 @@
         .sidebar {
             transform: translateX(0);
         }
+          .title{
+        color: white;
+         font:bolder ;
+         font-size:30px;
+    }
+    .hub{
+        font: bold ;
+        color: black ;
+        font-size: 18px;
+    }
+        @media screen and (max-width: 768px) {
+            .title {
+                font-size: 20px;
+                /* Reduced font size for mobile */
+            }
+    
+            .hub {
+                font-size: 12px;
+            }
+        }
 
         #main-content {
             margin-left: 250px;
